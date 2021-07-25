@@ -1,0 +1,16 @@
+.toggleChildButton {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  padding: 10px 15px;
+  background-color: rgb(29, 161, 242);
+  transition: all 0.2s ease-out;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggleChildButton:hover {
+  background-color: rgb(26, 145, 218);
+}
